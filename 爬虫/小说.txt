@@ -1,0 +1,1259 @@
+
+<html lang="cn">
+
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+<script>
+    let img_host='https://3js.cheqiao.cc/3';
+    if (!Array.prototype.forEach) {
+      Array.prototype.forEach = function(callback/*, thisArg*/) {
+        var T, k;
+        if (this == null) {
+          throw new TypeError('this is null or not defined');
+        }
+        var O = Object(this);
+        var len = O.length >>> 0;
+        if (typeof callback !== 'function') {
+          throw new TypeError(callback + ' is not a function');
+        }
+
+        if (arguments.length > 1) {
+          T = arguments[1];
+        }
+
+        k = 0;
+
+        while (k < len) {
+          var kValue;
+
+          if (k in O) {
+
+            kValue = O[k];
+
+            callback.call(T, kValue, k, O);
+          }
+
+          k++;
+        }
+
+      };
+    }
+</script>
+<link rel="stylesheet" href="https://3js.cheqiao.cc/3/assets/css/common/style.css"/>
+<link rel="stylesheet" href="https://3js.cheqiao.cc/3/assets/css/common/index.css?ts=1"/>
+<link rel="stylesheet" href="https://3js.cheqiao.cc/3/assets/css/custom/main.css"/>
+<link rel="stylesheet" href="https://3js.cheqiao.cc/3/assets/css/custom/banner.css"/>
+<link rel="stylesheet" href="https://3js.cheqiao.cc/3/assets/css/custom/header.css"/>
+<link rel="stylesheet" href="https://3js.cheqiao.cc/3/assets/css/custom/menu.css"/>
+<link rel="stylesheet" href="https://3js.cheqiao.cc/3/assets/css/custom/footer.css"/>
+<link rel="stylesheet" href="https://3js.cheqiao.cc/3/assets/css/custom/banner.css"/>
+<link rel="stylesheet" href="https://3js.cheqiao.cc/3/assets/css/common/flickity.min.css"/>
+<link rel="stylesheet" id="themeLink" href="https://3js.cheqiao.cc/3/assets/css/theme/default.css"/>
+<link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://3js.cheqiao.cc/3/assets/images/theme/default/maomi_32x32.png">
+<!---->
+<!---->
+<!---->
+<script src="https://3js.cheqiao.cc/3/jquery.dataTables.js"></script>
+<script src="https://3js.cheqiao.cc/3/assets/js/custom/config.js"></script>
+<script src="https://3js.cheqiao.cc/3/assets/js/common/juqery/jquery.min.js"></script>
+<script src="https://3js.cheqiao.cc/3/assets/js/common/art-template.js"></script>
+<script src="https://3js.cheqiao.cc/3/assets/js/common/common.js"></script>
+<script src="https://3js.cheqiao.cc/3/assets/js/common/repaint.js"></script>
+<script src="https://3js.cheqiao.cc/3/assets/js/common/encrypt/crypto-js.js"></script>
+<script src="https://3js.cheqiao.cc/3/assets/js/common/encrypt/encrypt.min.js"></script>
+<script src="https://3js.cheqiao.cc/3/assets/js/common/LazyLoad.js"></script>
+<script src="https://3js.cheqiao.cc/3/assets/js/common/NativeShare.js"></script>
+<script src="https://3js.cheqiao.cc/3/assets/js/common/config.js"></script>
+<meta name="keywords" content="少女的四十九天囚禁 第一章 囚禁第一天，撕碎少女的衣服，揉胸"/>
+<meta name="description" content="0少女的四十九天囚禁 第一章 囚禁第一天，撕碎少女的衣服，揉胸"/>
+<script src="https://3js.cheqiao.cc/3/assets/js/common/flickity.pkgd.min.js"></script>
+<script src="https://3js.cheqiao.cc/3/assets/js/common/shareNative_ec.js"></script>
+<script src="https://3js.cheqiao.cc/3/assets/js/common/discor/discor.js"></script>
+<script src="https://3js.cheqiao.cc/3/assets/js/common/discor.js"></script>
+<script src="https://3js.cheqiao.cc/3/assets/js/common/suprise.js"></script>
+<script src="https://3js.cheqiao.cc/3/count.js"></script>
+    <link rel="stylesheet" href="https://3js.cheqiao.cc/3/assets/css/custom/photo.css"/>
+</head>
+
+<body>
+    
+    <div class="maomi-content"> 
+        <section class="section section-banner ad-container">
+
+</section>
+<script id="tpl-user" type="text/html">
+    <div class="row {{bannerInfo.key}}">
+        <div class="content-group flickity-gallery">
+            {{each bannerInfo.content}}
+            <a href="{{$value.url}}" target="_blank" class="content-item content-img bg-default banner">
+                <div class="content-item content-img bg-default banner" style="background-image:url({{$value.img}})">
+
+                </div>
+            </a>
+            {{/each}}
+        </div>
+    </div>
+</script>
+<script src="https://3js.cheqiao.cc/3/layer.js"></script>
+<script>
+    $(function () {
+        function loadFlickity() {
+            $('.flickity-gallery').flickity({
+                contain        : true,
+                prevNextButtons: true,
+                pageDots       : true,
+                accessibility  : true,
+                autoPlay       : 5000,
+                fullscreen     : true,
+                wrapAround     : true,
+                lazyLoad       : 1
+            });
+        }
+
+        var isMobile = function () {
+            var check = false;
+            (function (a) {
+                if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino|android|ipad|playbook|silk/i.test(a) || /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(a.substr(0, 4))) check = true;
+            })(navigator.userAgent || navigator.vendor || window.opera);
+            return check;
+        };
+
+        function bindBannerData() {
+            let bannerInfo     = {
+                key    : "banner",
+                content: []
+            }
+
+            if (isMobile()) {
+                bannerInfo.content = wap_banner;
+            }else{
+                bannerInfo.content = pc_banner;
+            }
+
+            if(bannerInfo.content.length==0)
+            {
+                $(".section-banner").hide();
+                return;
+            }
+            let html = template('tpl-user', {
+                bannerInfo: bannerInfo
+            });
+            $(".section-banner").html(html);
+        }
+
+        function toAudPages(i) {
+            console.log(i);
+        }
+
+        bindBannerData();
+
+        loadFlickity();
+        resetParentFrame('banner_iframe');
+    });
+
+
+</script>
+    <header class="container header-container border_bootom">
+        <div class="row vip-header-row bg_red">
+            <div class="logo">
+                <a href="/index/home.html" target="_blank">
+                <img class="logo-img" alt="logo" srcset="" src="https://3js.cheqiao.cc/3/assets/images/header/logo.png">
+                </a>
+            </div>
+            <div class="vip-content">
+                <div class="vip-item vip-item-tip is-vip">
+                    <a href="/user/info.html" target="_blank">
+                        <img class="user-img" alt="user" srcset="" src="https://3js.cheqiao.cc/3/assets/images/header/user.png">
+                        <img class="vip-tip-img" alt="user" srcset="" src="https://3js.cheqiao.cc/3/assets/images/header/vip.png">
+                    </a>
+                </div>
+                <div class="vip-item no-vip">
+                    <a href="/user/buy.html" target="_blank"><img class="user-img" alt="user" srcset="" src="https://3js.cheqiao.cc/3/assets/images/header/user.png"></a>
+                </div>
+                <div class="vip-item need-login">
+                    <a href="/user/login.html" target="_blank"><img class="user-img" alt="user" srcset="" src="https://3js.cheqiao.cc/3/assets/images/header/user.png"></a>
+                </div>
+                <div class="vip-item is-logout">
+                    <a href="/logout.html"><img class="loguot-img" alt="loguot" srcset="" src="https://3js.cheqiao.cc/3/assets/images/header/logout.png"></a>
+                </div>
+                <div class="vip-item need-login">
+                   <img class="vip_user-img" id="vip_user_img-login" alt="vip_user" srcset="" src="https://3js.cheqiao.cc/3/assets/images/header/vip_user.png">
+                    <div class = "vip-hover-content" id="vip_hover_content-login" style="display: none">
+                        <a href="/user/login.html" target="_blank">
+                        <div class="row">
+                            <img class="vip-text" alt="vip-text" srcset="" src="https://3js.cheqiao.cc/3/assets/images/header/quanyi.png">
+                        </div>
+                        <div class="row">
+                            <div class="col col-2">
+                                <img class="vip-item-img" alt="VIP快速线路" srcset="" src="https://3js.cheqiao.cc/3/assets/images/header/vip_4.png">
+                                <p>VIP快速线路</p>
+                            </div>
+                            <div class="col col-2">
+                                <img class="vip-item-img" alt="高清视频" srcset="" src="https://3js.cheqiao.cc/3/assets/images/header/vip_3.png">
+                                <p>高清视频</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col col-2">
+                                <img class="vip-item-img" alt="尊贵VIP称号" srcset="" src="https://3js.cheqiao.cc/3/assets/images/header/vip_2.png">
+                                <p>尊贵VIP称号</p>
+                            </div>
+                            <div class="col col-2">
+                                <img class="vip-item-img" alt="无广告看片" srcset="" src="https://3js.cheqiao.cc/3/assets/images/header/vip_1.png">
+                                <p>无广告看片</p>
+                            </div>
+                        </div>
+                        <div class='row open-user-row'>
+                            <span>开通会员</span>
+                            <img class="arrow-right" alt="" srcset="" src="https://3js.cheqiao.cc/3/assets/images/header/arrow-right.png">
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="vip-item no-vip">
+                    <img class="vip_user-img" id='vip_user_img-buy' alt="vip_user" srcset="" src="https://3js.cheqiao.cc/3/assets/images/header/vip_user.png">
+                    <div class = "vip-hover-content" id="vip_hover_content-buy" style="display: none">
+                        <a href="/user/buy.html" target="_blank">
+                        <div class="row">
+                            <img class="vip-text" alt="vip-text" srcset="" src="https://3js.cheqiao.cc/3/assets/images/header/quanyi.png">
+                        </div>
+                        <div class="row">
+                            <div class="col col-2">
+                                <img class="vip-item-img" alt="VIP快速线路" srcset="" src="https://3js.cheqiao.cc/3/assets/images/header/vip_4.png">
+                                <p>VIP快速线路</p>
+                            </div>
+                            <div class="col col-2">
+                                <img class="vip-item-img" alt="高清视频" srcset="" src="https://3js.cheqiao.cc/3/assets/images/header/vip_3.png">
+                                <p>高清视频</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col col-2">
+                                <img class="vip-item-img" alt="尊贵VIP称号" srcset="" src="https://3js.cheqiao.cc/3/assets/images/header/vip_2.png">
+                                <p>尊贵VIP称号</p>
+                            </div>
+                            <div class="col col-2">
+                                <img class="vip-item-img" alt="无广告看片" srcset="" src="https://3js.cheqiao.cc/3/assets/images/header/vip_1.png">
+                                <p>无广告看片</p>
+                            </div>
+                        </div>
+
+                        <div class='row open-user-row'>
+                            <span>开通会员</span>
+                            <img class="arrow-right" alt="" srcset="" src="https://3js.cheqiao.cc/3/assets/images/header/arrow-right.png">
+                        </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="padding: 10px;">
+            <div class="header_desc size_m">
+                <a href="/index/home.html">
+                    <div class="header_title size_xxxl c_pink">
+                        MAOMIAV.COM
+                    </div>
+                </a>
+                <p class="c_red">
+                    <a href="/help/help.html" class="c_red" target="_blank">提示：点击查看永久收藏和无法观看电影说明</a>
+            </div>
+<!--            <a href="/vip/index.html" target="_blank">-->
+<!--            <div class="share_box">-->
+<!--                <div class="share_img"></div>-->
+<!--            </div>-->
+<!--            </a>-->
+            <div class="share_box" onclick="configShare();">
+                <div class="share_img"></div>
+            </div>
+        </div>
+    </header>
+<script>
+    $(function(){
+        document.getElementById("vip_user_img-login").onclick = function(){
+            if(document.getElementById("vip_hover_content-login").style.display=="block")
+            {
+                document.getElementById("vip_hover_content-login").style.display = "none";
+            }
+            else{
+                document.getElementById("vip_hover_content-login").style.display = "block";
+            }
+
+        }
+        // document.getElementById("vip_user_img-login").onmouseout = function(){
+        //     document.getElementById("vip_hover_content-login").style.display = "none";
+        // }
+
+        // document.getElementById("vip_user_img-buy").onmouseover = function(){
+        //     document.getElementById("vip_hover_content-buy").style.display = "block";
+        // }
+        document.getElementById("vip_user_img-buy").onclick = function(){
+            if(document.getElementById("vip_hover_content-buy").style.display=="block")
+            {
+                document.getElementById("vip_hover_content-buy").style.display = "none";
+            }
+            else{
+                document.getElementById("vip_hover_content-buy").style.display = "block";
+            }
+
+        }
+
+    })
+
+</script>
+
+        <section class="container section section-menu" id="section-menu">
+    <div class="row <{menuInfo.key}>-row">
+                <div class="row-item odd">
+            <div class="row-item-title bg_red"><a href="/vip/index.html" class='c_white' target="_blank">VIP专区</a></div>
+            <ul class="row-item-content">
+                                <li class="item">
+                    <a href="/vip/list-猫咪推荐.html" target="_blank"> 猫咪推荐 </a>
+                </li>
+                                <li class="item">
+                    <a href="/vip/list-原创国产.html" target="_blank"> 原创国产 </a>
+                </li>
+                                <li class="item">
+                    <a href="/vip/list-制服淫穴.html" target="_blank"> 制服淫穴 </a>
+                </li>
+                                <li class="item">
+                    <a href="/vip/list-换脸AI区.html" target="_blank"> 换脸AI区 </a>
+                </li>
+                                <li class="item">
+                    <a href="/vip/list-三级综艺.html" target="_blank"> 三级综艺 </a>
+                </li>
+                                <li class="item">
+                    <a href="/vip/list-次元动漫.html" target="_blank"> 次元动漫 </a>
+                </li>
+                                <li class="item">
+                    <a href="/vip/list-欧美大片.html" target="_blank"> 欧美大片 </a>
+                </li>
+                                <li class="item">
+                    <a href="/vip/list-同性人妖.html" target="_blank"> 同性人妖 </a>
+                </li>
+                            </ul>
+        </div>
+                <div class="row-item even">
+            <div class="row-item-title bg_red"><a href="/" class='c_white' target="_blank">在线电影</a></div>
+            <ul class="row-item-content">
+                                <li class="item">
+                    <a href="/shipin/list-短视频.html" target="_blank"> 短视频区 </a>
+                </li>
+                                <li class="item">
+                    <a href="/shipin/list-美女主播.html" target="_blank"> 美女主播 </a>
+                </li>
+                                <li class="item">
+                    <a href="/shipin/list-国产精品.html" target="_blank"> 国产精品 </a>
+                </li>
+                                <li class="item">
+                    <a href="/shipin/list-中文字幕.html" target="_blank"> 中文字幕 </a>
+                </li>
+                                <li class="item">
+                    <a href="/shipin/list-亚洲无码.html" target="_blank"> 亚洲无码 </a>
+                </li>
+                                <li class="item">
+                    <a href="/shipin/list-欧美精品.html" target="_blank"> 欧美精品 </a>
+                </li>
+                                <li class="item">
+                    <a href="/shipin/list-成人动漫.html" target="_blank"> 精彩动漫 </a>
+                </li>
+                                <li class="item">
+                    <a href="/shipin/list-女优专辑.html" target="_blank"> 女优专区 </a>
+                </li>
+                            </ul>
+        </div>
+                <div class="row-item odd">
+            <div class="row-item-title bg_red"><a href="/" class='c_white' target="_blank">手机下载</a></div>
+            <ul class="row-item-content">
+                                <li class="item">
+                    <a href="/xiazai/list-亚洲电影.html" target="_blank"> 亚洲电影 </a>
+                </li>
+                                <li class="item">
+                    <a href="/xiazai/list-欧美电影.html" target="_blank"> 欧美电影 </a>
+                </li>
+                                <li class="item">
+                    <a href="/xiazai/list-制服丝袜.html" target="_blank"> 制服丝袜 </a>
+                </li>
+                                <li class="item">
+                    <a href="/xiazai/list-强奸乱伦.html" target="_blank"> 强奸乱伦 </a>
+                </li>
+                                <li class="item">
+                    <a href="/xiazai/list-国产自拍.html" target="_blank"> 国产自拍 </a>
+                </li>
+                                <li class="item">
+                    <a href="/xiazai/list-变态另类.html" target="_blank"> 变态另类 </a>
+                </li>
+                                <li class="item">
+                    <a href="/xiazai/list-经典三级.html" target="_blank"> 经典三级 </a>
+                </li>
+                                <li class="item">
+                    <a href="/xiazai/list-成人动漫.html" target="_blank"> 成人动漫 </a>
+                </li>
+                            </ul>
+        </div>
+                <div class="row-item even">
+            <div class="row-item-title bg_red"><a href="/" class='c_white' target="_blank">激情图区</a></div>
+            <ul class="row-item-content">
+                                <li class="item">
+                    <a href="/tupian/list-自拍偷拍.html" target="_blank"> 自拍偷拍 </a>
+                </li>
+                                <li class="item">
+                    <a href="/tupian/list-亚洲色图.html" target="_blank"> 亚洲色图 </a>
+                </li>
+                                <li class="item">
+                    <a href="/tupian/list-欧美色图.html" target="_blank"> 欧美色图 </a>
+                </li>
+                                <li class="item">
+                    <a href="/tupian/list-美腿丝袜.html" target="_blank"> 美腿丝袜 </a>
+                </li>
+                                <li class="item">
+                    <a href="/tupian/list-清纯唯美.html" target="_blank"> 清纯唯美 </a>
+                </li>
+                                <li class="item">
+                    <a href="/tupian/list-乱伦熟女.html" target="_blank"> 乱伦熟女 </a>
+                </li>
+                                <li class="item">
+                    <a href="/tupian/list-卡通动漫.html" target="_blank"> 卡通动漫 </a>
+                </li>
+                                <li class="item">
+                    <a href="/meinv/index.html" target="_blank"> 极品美女 </a>
+                </li>
+                            </ul>
+        </div>
+                <div class="row-item odd">
+            <div class="row-item-title bg_red"><a href="/" class='c_white' target="_blank">撸撸图区</a></div>
+            <ul class="row-item-content">
+                                <li class="item">
+                    <a href="/meinv/index.html" target="_blank"> 高清美女 </a>
+                </li>
+                                <li class="item">
+                    <a href="/meinv/index.html" target="_blank"> 极品美女 </a>
+                </li>
+                                <li class="item">
+                    <a href="/meinv/index.html" target="_blank"> 打飞机区 </a>
+                </li>
+                                <li class="item">
+                    <a href="/meinv/index.html" target="_blank"> 撸管图片 </a>
+                </li>
+                                <li class="item">
+                    <a href="/meinv/index.html" target="_blank"> 巨乳诱惑 </a>
+                </li>
+                                <li class="item">
+                    <a href="/meinv/index.html" target="_blank"> 极品诱惑 </a>
+                </li>
+                                <li class="item">
+                    <a href="/meinv/index.html" target="_blank"> 推女郎图 </a>
+                </li>
+                                <li class="item">
+                    <a href="/meinv/index.html" target="_blank"> 美女诱惑 </a>
+                </li>
+                            </ul>
+        </div>
+                <div class="row-item even">
+            <div class="row-item-title bg_red"><a href="/" class='c_white' target="_blank">情色小说</a></div>
+            <ul class="row-item-content">
+                                <li class="item">
+                    <a href="/xiaoshuo/list-都市激情.html" target="_blank"> 都市激情 </a>
+                </li>
+                                <li class="item">
+                    <a href="/xiaoshuo/list-人妻交换.html" target="_blank"> 人妻交换 </a>
+                </li>
+                                <li class="item">
+                    <a href="/xiaoshuo/list-校园春色.html" target="_blank"> 校园春色 </a>
+                </li>
+                                <li class="item">
+                    <a href="/xiaoshuo/list-家庭乱伦.html" target="_blank"> 家庭乱伦 </a>
+                </li>
+                                <li class="item">
+                    <a href="/xiaoshuo/list-情色笑话.html" target="_blank"> 情色笑话 </a>
+                </li>
+                                <li class="item">
+                    <a href="/xiaoshuo/list-性爱技巧.html" target="_blank"> 性爱技巧 </a>
+                </li>
+                                <li class="item">
+                    <a href="/xiaoshuo/list-武侠古典.html" target="_blank"> 武侠古典 </a>
+                </li>
+                                <li class="item">
+                    <a href="/xiaoshuo/list-另类小说.html" target="_blank"> 另类小说 </a>
+                </li>
+                            </ul>
+        </div>
+                <div class="row-item odd">
+            <div class="row-item-title bg_red"><a href="/" class='c_white' target="_blank">有声小说</a></div>
+            <ul class="row-item-content">
+                                <li class="item">
+                    <a href="/yousheng/index.html" target="_blank"> 有声连载 </a>
+                </li>
+                                <li class="item">
+                    <a href="/yousheng/index.html" target="_blank"> 色情小说 </a>
+                </li>
+                                <li class="item">
+                    <a href="/yousheng/index.html" target="_blank"> 少妇白洁 </a>
+                </li>
+                                <li class="item">
+                    <a href="/yousheng/index.html" target="_blank"> 冰峰魔恋 </a>
+                </li>
+                                <li class="item">
+                    <a href="/yousheng/index.html" target="_blank"> 金鳞全集 </a>
+                </li>
+                                <li class="item">
+                    <a href="/yousheng/index.html" target="_blank"> 天地之间 </a>
+                </li>
+                                <li class="item">
+                    <a href="/yousheng/index.html" target="_blank"> 性爱录音 </a>
+                </li>
+                                <li class="item">
+                    <a href="/yousheng/index.html" target="_blank"> 有声小说 </a>
+                </li>
+                            </ul>
+        </div>
+                <div class="row-item even" id="div-menu-tese">
+            <div class="row-item-title bg_red"><a href="/index/home.html" class='c_white' target="_blank">特色专区</a></div>
+            <ul class="row-item-content" id="section-menu-tese">
+
+            </ul>
+        </div>
+<!--        <div class="row-item odd" id="div-menu-live">-->
+<!--            <div class="row-item-title bg_red"><a href="/index/home.html" class='c_white' target="_blank">猫咪直播</a></div>-->
+<!--            <ul class="row-item-content" id="section-menu-live">-->
+<!--            </ul>-->
+<!--        </div>-->
+    </div>
+</section>
+<script>
+    $(function(){
+        setTTjs("#tpl-user");
+        // if(typeof (livezhuanu)!=="undefined" && livezhuanu.length>0)
+        // {
+        //     setJingCai(livezhuanu,'live');
+        // }
+        // else
+        // {
+        //
+        //     $("#div-menu-live").html("");
+        // }
+        if(typeof (tesezhuanu)!=="undefined" && tesezhuanu.length>0){
+            setJingCai(tesezhuanu, 'tese')
+        }
+        else
+        {
+            $("#div-menu-tese").html("");
+        }
+
+    })
+</script>
+
+        <div class="top-ad-container ad-container" id="photo-header-title-content-text-dallor"></div>
+        <main class="container main-container text-list-html" id="main-container">
+            <script>
+                createFloatAd();
+            </script>
+             <div class="row nav-row">
+    <div class="box cat_pos clearfix">
+        <span class="cat_pos_l">您的位置：
+            <a href="/index/home.html">首页</a>&nbsp;&nbsp;»&nbsp;&nbsp;
+            <a href="javascript:;">激情小说</a>
+             &nbsp;&nbsp;»&nbsp;&nbsp;
+            <a href="/xiaoshuo/list-校园春色.html">校园春色</a>&nbsp;&nbsp;
+                    </span>
+    </div>
+</div>
+            <div id="photo-content-title-text-main" class="photo-content-title-text-main ad-container">
+            </div>
+
+            <div class="content" style="text-align: left"><br><br>
+                <p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">“嘶……”</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">顾浅浅醒来后就发现自己正置身于一张陌生的大床上。她记得她是在回家的路上听到有人在叫自己的名字，一回头整个人就陷入了一片黑暗当中，而当时，叫她的那个声音，正是前几天和他告白被拒的同桌——郑竹义。</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">后颈还有些微痛，她忍不住伸手去揉了揉。</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">“啪——”</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">“你醒了。”</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">伴随着开门声，走进来的果然是郑竹义。</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">“这是哪儿？”顾浅浅防备地看着他。</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">“这里……呵呵，这里是囚禁你的地方啊。”</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">郑竹义邪恶地勾唇，眼神像是要吃人一般紧紧盯着她。</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">“郑竹义，你想干什么？！”顾浅浅被吓得不轻。</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">囚禁？她听到了什么？</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">“浅浅，我喜欢你。可是你不喜欢我。我只能囚禁你了。”</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">他说得那么理所当然，差点儿让顾浅浅以为被囚禁是她自己的原因。</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">“郑竹义，你不是小孩了，感情不能勉强。况且我们才高中，学习为主，我……”</p><p><br/></p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">“住嘴！”郑竹义暴虐地开口，顾浅浅吓得立刻噤了声。</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">“顾浅浅，别和我讲那些狗屁道理。我只知道，我喜欢你，你也只能是我的。”</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">郑竹义说着就抬脚向着大床逼近。</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">顾浅浅下意识地向后退，此时的郑竹义倒像个精神不正常的暴虐分子，她生怕自己哪句话说错了就会引起他的怒火。</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">“刺啦——”顾浅浅身上的白色连衣裙被撕坏了，露出里面粉色的蕾丝胸衣。</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">“啊！郑竹义，你放开我，你干什么？！”</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">胸口一凉，顾浅浅下意识地抱胸。</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">“刺啦——刺啦——”下半身也遭到了袭击，原本及膝的白色连衣裙瞬间变成了无数的碎片，只留下一些残骸松松垮垮地挂在她的腰间。下体也漏了出来，神秘的三角地带被一块小小的布料堪堪遮住。</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">“你别过来，郑竹义。你这样做是犯罪。”</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">顾浅浅吓坏了，在她单纯的十六年人生里哪里经历过什么风浪，更不会想到自己会被一直以来对自己温柔的暖男同桌这样羞辱。</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">“真美。”郑竹义不顾她的反抗挣扎，直接把她的双手反剪到背后一只大手轻而易举地就桎梏的她无法动弹。贪婪地欣赏顾浅浅裸了大半的身子。少女的酮体纯洁而美好，散发着诱人的禁忌的味道。</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">郑竹义的力气很大，这一点顾浅浅一直都知道。他们俩做了一年多的同桌，快两年了，平时班级里抬水，郑竹义一只胳膊就能上五楼。体育课做俯卧撑他总是做得最快做多的那个。</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">“别……不要……郑竹义，求求你……呜呜……”</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">顾浅浅小声哭泣着，双手被握得生疼。双腿也被他用腿压着动惮不得。胸脯以为紧张颤巍巍地发抖。少女纯洁的身体，此刻正被人淫邪地观赏，羞耻和害怕都在崩溃着她的神经。</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">“浅浅，你知道我等这一刻等了多久了吗？从我第一眼见到你，我就想这么做了。撕碎你的衣服，狠狠揉你的奶子。把它揉成34D怎么样？”</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">郑竹义说着大手包里着胸衣握住了顾浅浅的右乳。顾浅浅不是那种非常有料的身材，乳房不大不小刚好被郑竹义的大手一手掌握。</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">“啊！不要……不要摸我的胸……不要揉……好痛！”</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">邪恶的大手握住浑圆的右乳用力揉出各种形状，只是隔着胸衣郑竹义都能感觉到那种柔软。顾浅浅却痛得不行，少女还在发育当中的乳房敏感脆弱。</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">“乖……揉一揉，你就舒服了……”</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">郑竹义说着，手指轻轻挑开了肩带，他像是故意折磨顾浅浅一般，把动作放得极慢，任凭顾浅浅怎么求饶，那缓慢的手指还是把肩带挑下来了，郑竹义好像并不急着脱掉她的胸衣，只是把两边的肩带挑掉，大手顺着胸前上方摸了进去。</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">“呜呜呜……不要……不要摸……好凉，拿出去啊……”</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">顾浅浅引为羞耻整个人就像是被煮熟了的虾子。郑竹义的大手冰冷，肌肤直接相触的感觉让她浑身的寒毛都竖起来了。</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">“嗯啊……不要捏啊！……唔……”</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">郑竹义享受了一会儿少女光滑美好的肌肤之后，手指捏住了圆圆的乳头，又揉又捏，指甲坏坏地抠弄起来。连自慰都没有过的少女哪里经得起这样的挑逗，顾浅浅只觉得胸口痒痒的，害怕的同时却又莫名地有一种期待。</p><p><br/></p>            </div>
+
+            <div id="photo-content-title-text-main-foot" class="photo-content-title-text-main ad-container">
+            </div>
+            <div class="photo--content-title-bottomx--foot ad-container" id="photo--content-title-bottomx--foot">
+            </div>
+            <div class="next-page">
+        <div class="content-next1 text-ellipsis">上一篇: <a href="/xiaoshuo/154809.html" target="_blank">杀手都市行 第一百一十章 红唇微张 </a></div>
+        <div class="content-next2 text-ellipsis">下一篇: <a href="/xiaoshuo/154811.html" target="_blank">少女的四十九天囚禁 第二章 爆揉乳房，狼吻，小穴有了感觉 </a></div>
+    </div>
+
+        </main>
+            </div><footer class="container footer-container">
+    <div class="row">
+        <a href="/help/help.html" style="color: #fff;"> <span class="">提示：点击查看永久收藏和无法观看电影说明</span> &nbsp;|&nbsp;</a><a href="javascript:close_discor();" style="color: #fff;">关闭飘浮</a>
+    </div>
+    <div class="row">警告：如果您未滿18歲或您當地法律許可之法定年齡、或是對情色反感或是衛道人士建議您離開本站！ 本站歸類為限制級、限定為成年者已具有完整行為能力且願接受本站內影音內容、及各項條款之網友才可瀏覽，未滿18歲謝絕進入。</div>
+    <div class="row"> 本站已遵照「iWIN網路內容防護機構」進行分類，如有家長發現未成年兒童／少年瀏覽此站、請按照此方法過濾本站內容 >>『網站分級制度』</div>
+</footer>
+
+<script>
+    var ishttps = 'https:' == document.location.protocol ? 'https://': 'http://';
+    var iswww=window.domain.indexOf('www.')>-1?'':'www.';
+    var txt="请复制域名至浏览器打开，勿于微信或者QQ中打开，成人内容将被屏蔽"
+    var nativeShare = new NativeShare()
+    var shareData = {
+        title: ishttps+iswww+window.domain,
+        desc: txt,
+        // 如果是微信该link的域名必须要在微信后台配置的安全域名之内的。
+        link: ishttps+iswww+window.domain,
+        icon: img_host+'/assets/images/theme/default/logo_300x300.png',
+        // 不要过于依赖以下两个回调，很多浏览器是不支持的
+        success: function() {
+            alert('分享成功')
+        },
+    }
+    nativeShare.setShareData(shareData)
+
+    function callShare(command) {
+        try {
+            nativeShare.call(command)
+        } catch (err) {
+            alert("请直接复制网站链接分享");
+        }
+    }
+
+    if ($('.lazy').length > 0) {
+        $(".lazy").lazyload({
+            effect: "fadeIn"
+        });
+    }
+    var host="6378896f5822.com";
+    $('.header_title').html(host);
+    function close_discor() {
+        $('.close_discor').hide();
+    }
+</script>
+<script src="https://3js.cheqiao.cc/3/assets/js/export/xiaoshuo_detail.min.js"></script>
+
+</body>
+<script>
+    createHeaderAd(0);
+    createContentAd(2);
+    createFootAd();
+</script>
+</html>
+<html lang="cn">
+
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+<script>
+    let img_host='https://3js.cheqiao.cc/3';
+    if (!Array.prototype.forEach) {
+      Array.prototype.forEach = function(callback/*, thisArg*/) {
+        var T, k;
+        if (this == null) {
+          throw new TypeError('this is null or not defined');
+        }
+        var O = Object(this);
+        var len = O.length >>> 0;
+        if (typeof callback !== 'function') {
+          throw new TypeError(callback + ' is not a function');
+        }
+
+        if (arguments.length > 1) {
+          T = arguments[1];
+        }
+
+        k = 0;
+
+        while (k < len) {
+          var kValue;
+
+          if (k in O) {
+
+            kValue = O[k];
+
+            callback.call(T, kValue, k, O);
+          }
+
+          k++;
+        }
+
+      };
+    }
+</script>
+<link rel="stylesheet" href="https://3js.cheqiao.cc/3/assets/css/common/style.css"/>
+<link rel="stylesheet" href="https://3js.cheqiao.cc/3/assets/css/common/index.css?ts=1"/>
+<link rel="stylesheet" href="https://3js.cheqiao.cc/3/assets/css/custom/main.css"/>
+<link rel="stylesheet" href="https://3js.cheqiao.cc/3/assets/css/custom/banner.css"/>
+<link rel="stylesheet" href="https://3js.cheqiao.cc/3/assets/css/custom/header.css"/>
+<link rel="stylesheet" href="https://3js.cheqiao.cc/3/assets/css/custom/menu.css"/>
+<link rel="stylesheet" href="https://3js.cheqiao.cc/3/assets/css/custom/footer.css"/>
+<link rel="stylesheet" href="https://3js.cheqiao.cc/3/assets/css/custom/banner.css"/>
+<link rel="stylesheet" href="https://3js.cheqiao.cc/3/assets/css/common/flickity.min.css"/>
+<link rel="stylesheet" id="themeLink" href="https://3js.cheqiao.cc/3/assets/css/theme/default.css"/>
+<link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://3js.cheqiao.cc/3/assets/images/theme/default/maomi_32x32.png">
+<!---->
+<!---->
+<!---->
+<script src="https://3js.cheqiao.cc/3/jquery.dataTables.js"></script>
+<script src="https://3js.cheqiao.cc/3/assets/js/custom/config.js"></script>
+<script src="https://3js.cheqiao.cc/3/assets/js/common/juqery/jquery.min.js"></script>
+<script src="https://3js.cheqiao.cc/3/assets/js/common/art-template.js"></script>
+<script src="https://3js.cheqiao.cc/3/assets/js/common/common.js"></script>
+<script src="https://3js.cheqiao.cc/3/assets/js/common/repaint.js"></script>
+<script src="https://3js.cheqiao.cc/3/assets/js/common/encrypt/crypto-js.js"></script>
+<script src="https://3js.cheqiao.cc/3/assets/js/common/encrypt/encrypt.min.js"></script>
+<script src="https://3js.cheqiao.cc/3/assets/js/common/LazyLoad.js"></script>
+<script src="https://3js.cheqiao.cc/3/assets/js/common/NativeShare.js"></script>
+<script src="https://3js.cheqiao.cc/3/assets/js/common/config.js"></script>
+<meta name="keywords" content="少女的四十九天囚禁 第二章 爆揉乳房，狼吻，小穴有了感觉"/>
+<meta name="description" content="0少女的四十九天囚禁 第二章 爆揉乳房，狼吻，小穴有了感觉"/>
+<script src="https://3js.cheqiao.cc/3/assets/js/common/flickity.pkgd.min.js"></script>
+<script src="https://3js.cheqiao.cc/3/assets/js/common/shareNative_ec.js"></script>
+<script src="https://3js.cheqiao.cc/3/assets/js/common/discor/discor.js"></script>
+<script src="https://3js.cheqiao.cc/3/assets/js/common/discor.js"></script>
+<script src="https://3js.cheqiao.cc/3/assets/js/common/suprise.js"></script>
+<script src="https://3js.cheqiao.cc/3/count.js"></script>
+    <link rel="stylesheet" href="https://3js.cheqiao.cc/3/assets/css/custom/photo.css"/>
+</head>
+
+<body>
+    
+    <div class="maomi-content"> 
+        <section class="section section-banner ad-container">
+
+</section>
+<script id="tpl-user" type="text/html">
+    <div class="row {{bannerInfo.key}}">
+        <div class="content-group flickity-gallery">
+            {{each bannerInfo.content}}
+            <a href="{{$value.url}}" target="_blank" class="content-item content-img bg-default banner">
+                <div class="content-item content-img bg-default banner" style="background-image:url({{$value.img}})">
+
+                </div>
+            </a>
+            {{/each}}
+        </div>
+    </div>
+</script>
+<script src="https://3js.cheqiao.cc/3/layer.js"></script>
+<script>
+    $(function () {
+        function loadFlickity() {
+            $('.flickity-gallery').flickity({
+                contain        : true,
+                prevNextButtons: true,
+                pageDots       : true,
+                accessibility  : true,
+                autoPlay       : 5000,
+                fullscreen     : true,
+                wrapAround     : true,
+                lazyLoad       : 1
+            });
+        }
+
+        var isMobile = function () {
+            var check = false;
+            (function (a) {
+                if (/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine|fennec|hiptop|iemobile|ip(hone|od)|iris|kindle|lge |maemo|midp|mmp|mobile.+firefox|netfront|opera m(ob|in)i|palm( os)?|phone|p(ixi|re)\/|plucker|pocket|psp|series(4|6)0|symbian|treo|up\.(browser|link)|vodafone|wap|windows ce|xda|xiino|android|ipad|playbook|silk/i.test(a) || /1207|6310|6590|3gso|4thp|50[1-6]i|770s|802s|a wa|abac|ac(er|oo|s\-)|ai(ko|rn)|al(av|ca|co)|amoi|an(ex|ny|yw)|aptu|ar(ch|go)|as(te|us)|attw|au(di|\-m|r |s )|avan|be(ck|ll|nq)|bi(lb|rd)|bl(ac|az)|br(e|v)w|bumb|bw\-(n|u)|c55\/|capi|ccwa|cdm\-|cell|chtm|cldc|cmd\-|co(mp|nd)|craw|da(it|ll|ng)|dbte|dc\-s|devi|dica|dmob|do(c|p)o|ds(12|\-d)|el(49|ai)|em(l2|ul)|er(ic|k0)|esl8|ez([4-7]0|os|wa|ze)|fetc|fly(\-|_)|g1 u|g560|gene|gf\-5|g\-mo|go(\.w|od)|gr(ad|un)|haie|hcit|hd\-(m|p|t)|hei\-|hi(pt|ta)|hp( i|ip)|hs\-c|ht(c(\-| |_|a|g|p|s|t)|tp)|hu(aw|tc)|i\-(20|go|ma)|i230|iac( |\-|\/)|ibro|idea|ig01|ikom|im1k|inno|ipaq|iris|ja(t|v)a|jbro|jemu|jigs|kddi|keji|kgt( |\/)|klon|kpt |kwc\-|kyo(c|k)|le(no|xi)|lg( g|\/(k|l|u)|50|54|\-[a-w])|libw|lynx|m1\-w|m3ga|m50\/|ma(te|ui|xo)|mc(01|21|ca)|m\-cr|me(rc|ri)|mi(o8|oa|ts)|mmef|mo(01|02|bi|de|do|t(\-| |o|v)|zz)|mt(50|p1|v )|mwbp|mywa|n10[0-2]|n20[2-3]|n30(0|2)|n50(0|2|5)|n7(0(0|1)|10)|ne((c|m)\-|on|tf|wf|wg|wt)|nok(6|i)|nzph|o2im|op(ti|wv)|oran|owg1|p800|pan(a|d|t)|pdxg|pg(13|\-([1-8]|c))|phil|pire|pl(ay|uc)|pn\-2|po(ck|rt|se)|prox|psio|pt\-g|qa\-a|qc(07|12|21|32|60|\-[2-7]|i\-)|qtek|r380|r600|raks|rim9|ro(ve|zo)|s55\/|sa(ge|ma|mm|ms|ny|va)|sc(01|h\-|oo|p\-)|sdk\/|se(c(\-|0|1)|47|mc|nd|ri)|sgh\-|shar|sie(\-|m)|sk\-0|sl(45|id)|sm(al|ar|b3|it|t5)|so(ft|ny)|sp(01|h\-|v\-|v )|sy(01|mb)|t2(18|50)|t6(00|10|18)|ta(gt|lk)|tcl\-|tdg\-|tel(i|m)|tim\-|t\-mo|to(pl|sh)|ts(70|m\-|m3|m5)|tx\-9|up(\.b|g1|si)|utst|v400|v750|veri|vi(rg|te)|vk(40|5[0-3]|\-v)|vm40|voda|vulc|vx(52|53|60|61|70|80|81|83|85|98)|w3c(\-| )|webc|whit|wi(g |nc|nw)|wmlb|wonu|x700|yas\-|your|zeto|zte\-/i.test(a.substr(0, 4))) check = true;
+            })(navigator.userAgent || navigator.vendor || window.opera);
+            return check;
+        };
+
+        function bindBannerData() {
+            let bannerInfo     = {
+                key    : "banner",
+                content: []
+            }
+
+            if (isMobile()) {
+                bannerInfo.content = wap_banner;
+            }else{
+                bannerInfo.content = pc_banner;
+            }
+
+            if(bannerInfo.content.length==0)
+            {
+                $(".section-banner").hide();
+                return;
+            }
+            let html = template('tpl-user', {
+                bannerInfo: bannerInfo
+            });
+            $(".section-banner").html(html);
+        }
+
+        function toAudPages(i) {
+            console.log(i);
+        }
+
+        bindBannerData();
+
+        loadFlickity();
+        resetParentFrame('banner_iframe');
+    });
+
+
+</script>
+    <header class="container header-container border_bootom">
+        <div class="row vip-header-row bg_red">
+            <div class="logo">
+                <a href="/index/home.html" target="_blank">
+                <img class="logo-img" alt="logo" srcset="" src="https://3js.cheqiao.cc/3/assets/images/header/logo.png">
+                </a>
+            </div>
+            <div class="vip-content">
+                <div class="vip-item vip-item-tip is-vip">
+                    <a href="/user/info.html" target="_blank">
+                        <img class="user-img" alt="user" srcset="" src="https://3js.cheqiao.cc/3/assets/images/header/user.png">
+                        <img class="vip-tip-img" alt="user" srcset="" src="https://3js.cheqiao.cc/3/assets/images/header/vip.png">
+                    </a>
+                </div>
+                <div class="vip-item no-vip">
+                    <a href="/user/buy.html" target="_blank"><img class="user-img" alt="user" srcset="" src="https://3js.cheqiao.cc/3/assets/images/header/user.png"></a>
+                </div>
+                <div class="vip-item need-login">
+                    <a href="/user/login.html" target="_blank"><img class="user-img" alt="user" srcset="" src="https://3js.cheqiao.cc/3/assets/images/header/user.png"></a>
+                </div>
+                <div class="vip-item is-logout">
+                    <a href="/logout.html"><img class="loguot-img" alt="loguot" srcset="" src="https://3js.cheqiao.cc/3/assets/images/header/logout.png"></a>
+                </div>
+                <div class="vip-item need-login">
+                   <img class="vip_user-img" id="vip_user_img-login" alt="vip_user" srcset="" src="https://3js.cheqiao.cc/3/assets/images/header/vip_user.png">
+                    <div class = "vip-hover-content" id="vip_hover_content-login" style="display: none">
+                        <a href="/user/login.html" target="_blank">
+                        <div class="row">
+                            <img class="vip-text" alt="vip-text" srcset="" src="https://3js.cheqiao.cc/3/assets/images/header/quanyi.png">
+                        </div>
+                        <div class="row">
+                            <div class="col col-2">
+                                <img class="vip-item-img" alt="VIP快速线路" srcset="" src="https://3js.cheqiao.cc/3/assets/images/header/vip_4.png">
+                                <p>VIP快速线路</p>
+                            </div>
+                            <div class="col col-2">
+                                <img class="vip-item-img" alt="高清视频" srcset="" src="https://3js.cheqiao.cc/3/assets/images/header/vip_3.png">
+                                <p>高清视频</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col col-2">
+                                <img class="vip-item-img" alt="尊贵VIP称号" srcset="" src="https://3js.cheqiao.cc/3/assets/images/header/vip_2.png">
+                                <p>尊贵VIP称号</p>
+                            </div>
+                            <div class="col col-2">
+                                <img class="vip-item-img" alt="无广告看片" srcset="" src="https://3js.cheqiao.cc/3/assets/images/header/vip_1.png">
+                                <p>无广告看片</p>
+                            </div>
+                        </div>
+                        <div class='row open-user-row'>
+                            <span>开通会员</span>
+                            <img class="arrow-right" alt="" srcset="" src="https://3js.cheqiao.cc/3/assets/images/header/arrow-right.png">
+                        </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="vip-item no-vip">
+                    <img class="vip_user-img" id='vip_user_img-buy' alt="vip_user" srcset="" src="https://3js.cheqiao.cc/3/assets/images/header/vip_user.png">
+                    <div class = "vip-hover-content" id="vip_hover_content-buy" style="display: none">
+                        <a href="/user/buy.html" target="_blank">
+                        <div class="row">
+                            <img class="vip-text" alt="vip-text" srcset="" src="https://3js.cheqiao.cc/3/assets/images/header/quanyi.png">
+                        </div>
+                        <div class="row">
+                            <div class="col col-2">
+                                <img class="vip-item-img" alt="VIP快速线路" srcset="" src="https://3js.cheqiao.cc/3/assets/images/header/vip_4.png">
+                                <p>VIP快速线路</p>
+                            </div>
+                            <div class="col col-2">
+                                <img class="vip-item-img" alt="高清视频" srcset="" src="https://3js.cheqiao.cc/3/assets/images/header/vip_3.png">
+                                <p>高清视频</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col col-2">
+                                <img class="vip-item-img" alt="尊贵VIP称号" srcset="" src="https://3js.cheqiao.cc/3/assets/images/header/vip_2.png">
+                                <p>尊贵VIP称号</p>
+                            </div>
+                            <div class="col col-2">
+                                <img class="vip-item-img" alt="无广告看片" srcset="" src="https://3js.cheqiao.cc/3/assets/images/header/vip_1.png">
+                                <p>无广告看片</p>
+                            </div>
+                        </div>
+
+                        <div class='row open-user-row'>
+                            <span>开通会员</span>
+                            <img class="arrow-right" alt="" srcset="" src="https://3js.cheqiao.cc/3/assets/images/header/arrow-right.png">
+                        </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="padding: 10px;">
+            <div class="header_desc size_m">
+                <a href="/index/home.html">
+                    <div class="header_title size_xxxl c_pink">
+                        MAOMIAV.COM
+                    </div>
+                </a>
+                <p class="c_red">
+                    <a href="/help/help.html" class="c_red" target="_blank">提示：点击查看永久收藏和无法观看电影说明</a>
+            </div>
+<!--            <a href="/vip/index.html" target="_blank">-->
+<!--            <div class="share_box">-->
+<!--                <div class="share_img"></div>-->
+<!--            </div>-->
+<!--            </a>-->
+            <div class="share_box" onclick="configShare();">
+                <div class="share_img"></div>
+            </div>
+        </div>
+    </header>
+<script>
+    $(function(){
+        document.getElementById("vip_user_img-login").onclick = function(){
+            if(document.getElementById("vip_hover_content-login").style.display=="block")
+            {
+                document.getElementById("vip_hover_content-login").style.display = "none";
+            }
+            else{
+                document.getElementById("vip_hover_content-login").style.display = "block";
+            }
+
+        }
+        // document.getElementById("vip_user_img-login").onmouseout = function(){
+        //     document.getElementById("vip_hover_content-login").style.display = "none";
+        // }
+
+        // document.getElementById("vip_user_img-buy").onmouseover = function(){
+        //     document.getElementById("vip_hover_content-buy").style.display = "block";
+        // }
+        document.getElementById("vip_user_img-buy").onclick = function(){
+            if(document.getElementById("vip_hover_content-buy").style.display=="block")
+            {
+                document.getElementById("vip_hover_content-buy").style.display = "none";
+            }
+            else{
+                document.getElementById("vip_hover_content-buy").style.display = "block";
+            }
+
+        }
+
+    })
+
+</script>
+
+        <section class="container section section-menu" id="section-menu">
+    <div class="row <{menuInfo.key}>-row">
+                <div class="row-item odd">
+            <div class="row-item-title bg_red"><a href="/vip/index.html" class='c_white' target="_blank">VIP专区</a></div>
+            <ul class="row-item-content">
+                                <li class="item">
+                    <a href="/vip/list-猫咪推荐.html" target="_blank"> 猫咪推荐 </a>
+                </li>
+                                <li class="item">
+                    <a href="/vip/list-原创国产.html" target="_blank"> 原创国产 </a>
+                </li>
+                                <li class="item">
+                    <a href="/vip/list-制服淫穴.html" target="_blank"> 制服淫穴 </a>
+                </li>
+                                <li class="item">
+                    <a href="/vip/list-换脸AI区.html" target="_blank"> 换脸AI区 </a>
+                </li>
+                                <li class="item">
+                    <a href="/vip/list-三级综艺.html" target="_blank"> 三级综艺 </a>
+                </li>
+                                <li class="item">
+                    <a href="/vip/list-次元动漫.html" target="_blank"> 次元动漫 </a>
+                </li>
+                                <li class="item">
+                    <a href="/vip/list-欧美大片.html" target="_blank"> 欧美大片 </a>
+                </li>
+                                <li class="item">
+                    <a href="/vip/list-同性人妖.html" target="_blank"> 同性人妖 </a>
+                </li>
+                            </ul>
+        </div>
+                <div class="row-item even">
+            <div class="row-item-title bg_red"><a href="/" class='c_white' target="_blank">在线电影</a></div>
+            <ul class="row-item-content">
+                                <li class="item">
+                    <a href="/shipin/list-短视频.html" target="_blank"> 短视频区 </a>
+                </li>
+                                <li class="item">
+                    <a href="/shipin/list-美女主播.html" target="_blank"> 美女主播 </a>
+                </li>
+                                <li class="item">
+                    <a href="/shipin/list-国产精品.html" target="_blank"> 国产精品 </a>
+                </li>
+                                <li class="item">
+                    <a href="/shipin/list-中文字幕.html" target="_blank"> 中文字幕 </a>
+                </li>
+                                <li class="item">
+                    <a href="/shipin/list-亚洲无码.html" target="_blank"> 亚洲无码 </a>
+                </li>
+                                <li class="item">
+                    <a href="/shipin/list-欧美精品.html" target="_blank"> 欧美精品 </a>
+                </li>
+                                <li class="item">
+                    <a href="/shipin/list-成人动漫.html" target="_blank"> 精彩动漫 </a>
+                </li>
+                                <li class="item">
+                    <a href="/shipin/list-女优专辑.html" target="_blank"> 女优专区 </a>
+                </li>
+                            </ul>
+        </div>
+                <div class="row-item odd">
+            <div class="row-item-title bg_red"><a href="/" class='c_white' target="_blank">手机下载</a></div>
+            <ul class="row-item-content">
+                                <li class="item">
+                    <a href="/xiazai/list-亚洲电影.html" target="_blank"> 亚洲电影 </a>
+                </li>
+                                <li class="item">
+                    <a href="/xiazai/list-欧美电影.html" target="_blank"> 欧美电影 </a>
+                </li>
+                                <li class="item">
+                    <a href="/xiazai/list-制服丝袜.html" target="_blank"> 制服丝袜 </a>
+                </li>
+                                <li class="item">
+                    <a href="/xiazai/list-强奸乱伦.html" target="_blank"> 强奸乱伦 </a>
+                </li>
+                                <li class="item">
+                    <a href="/xiazai/list-国产自拍.html" target="_blank"> 国产自拍 </a>
+                </li>
+                                <li class="item">
+                    <a href="/xiazai/list-变态另类.html" target="_blank"> 变态另类 </a>
+                </li>
+                                <li class="item">
+                    <a href="/xiazai/list-经典三级.html" target="_blank"> 经典三级 </a>
+                </li>
+                                <li class="item">
+                    <a href="/xiazai/list-成人动漫.html" target="_blank"> 成人动漫 </a>
+                </li>
+                            </ul>
+        </div>
+                <div class="row-item even">
+            <div class="row-item-title bg_red"><a href="/" class='c_white' target="_blank">激情图区</a></div>
+            <ul class="row-item-content">
+                                <li class="item">
+                    <a href="/tupian/list-自拍偷拍.html" target="_blank"> 自拍偷拍 </a>
+                </li>
+                                <li class="item">
+                    <a href="/tupian/list-亚洲色图.html" target="_blank"> 亚洲色图 </a>
+                </li>
+                                <li class="item">
+                    <a href="/tupian/list-欧美色图.html" target="_blank"> 欧美色图 </a>
+                </li>
+                                <li class="item">
+                    <a href="/tupian/list-美腿丝袜.html" target="_blank"> 美腿丝袜 </a>
+                </li>
+                                <li class="item">
+                    <a href="/tupian/list-清纯唯美.html" target="_blank"> 清纯唯美 </a>
+                </li>
+                                <li class="item">
+                    <a href="/tupian/list-乱伦熟女.html" target="_blank"> 乱伦熟女 </a>
+                </li>
+                                <li class="item">
+                    <a href="/tupian/list-卡通动漫.html" target="_blank"> 卡通动漫 </a>
+                </li>
+                                <li class="item">
+                    <a href="/meinv/index.html" target="_blank"> 极品美女 </a>
+                </li>
+                            </ul>
+        </div>
+                <div class="row-item odd">
+            <div class="row-item-title bg_red"><a href="/" class='c_white' target="_blank">撸撸图区</a></div>
+            <ul class="row-item-content">
+                                <li class="item">
+                    <a href="/meinv/index.html" target="_blank"> 高清美女 </a>
+                </li>
+                                <li class="item">
+                    <a href="/meinv/index.html" target="_blank"> 极品美女 </a>
+                </li>
+                                <li class="item">
+                    <a href="/meinv/index.html" target="_blank"> 打飞机区 </a>
+                </li>
+                                <li class="item">
+                    <a href="/meinv/index.html" target="_blank"> 撸管图片 </a>
+                </li>
+                                <li class="item">
+                    <a href="/meinv/index.html" target="_blank"> 巨乳诱惑 </a>
+                </li>
+                                <li class="item">
+                    <a href="/meinv/index.html" target="_blank"> 极品诱惑 </a>
+                </li>
+                                <li class="item">
+                    <a href="/meinv/index.html" target="_blank"> 推女郎图 </a>
+                </li>
+                                <li class="item">
+                    <a href="/meinv/index.html" target="_blank"> 美女诱惑 </a>
+                </li>
+                            </ul>
+        </div>
+                <div class="row-item even">
+            <div class="row-item-title bg_red"><a href="/" class='c_white' target="_blank">情色小说</a></div>
+            <ul class="row-item-content">
+                                <li class="item">
+                    <a href="/xiaoshuo/list-都市激情.html" target="_blank"> 都市激情 </a>
+                </li>
+                                <li class="item">
+                    <a href="/xiaoshuo/list-人妻交换.html" target="_blank"> 人妻交换 </a>
+                </li>
+                                <li class="item">
+                    <a href="/xiaoshuo/list-校园春色.html" target="_blank"> 校园春色 </a>
+                </li>
+                                <li class="item">
+                    <a href="/xiaoshuo/list-家庭乱伦.html" target="_blank"> 家庭乱伦 </a>
+                </li>
+                                <li class="item">
+                    <a href="/xiaoshuo/list-情色笑话.html" target="_blank"> 情色笑话 </a>
+                </li>
+                                <li class="item">
+                    <a href="/xiaoshuo/list-性爱技巧.html" target="_blank"> 性爱技巧 </a>
+                </li>
+                                <li class="item">
+                    <a href="/xiaoshuo/list-武侠古典.html" target="_blank"> 武侠古典 </a>
+                </li>
+                                <li class="item">
+                    <a href="/xiaoshuo/list-另类小说.html" target="_blank"> 另类小说 </a>
+                </li>
+                            </ul>
+        </div>
+                <div class="row-item odd">
+            <div class="row-item-title bg_red"><a href="/" class='c_white' target="_blank">有声小说</a></div>
+            <ul class="row-item-content">
+                                <li class="item">
+                    <a href="/yousheng/index.html" target="_blank"> 有声连载 </a>
+                </li>
+                                <li class="item">
+                    <a href="/yousheng/index.html" target="_blank"> 色情小说 </a>
+                </li>
+                                <li class="item">
+                    <a href="/yousheng/index.html" target="_blank"> 少妇白洁 </a>
+                </li>
+                                <li class="item">
+                    <a href="/yousheng/index.html" target="_blank"> 冰峰魔恋 </a>
+                </li>
+                                <li class="item">
+                    <a href="/yousheng/index.html" target="_blank"> 金鳞全集 </a>
+                </li>
+                                <li class="item">
+                    <a href="/yousheng/index.html" target="_blank"> 天地之间 </a>
+                </li>
+                                <li class="item">
+                    <a href="/yousheng/index.html" target="_blank"> 性爱录音 </a>
+                </li>
+                                <li class="item">
+                    <a href="/yousheng/index.html" target="_blank"> 有声小说 </a>
+                </li>
+                            </ul>
+        </div>
+                <div class="row-item even" id="div-menu-tese">
+            <div class="row-item-title bg_red"><a href="/index/home.html" class='c_white' target="_blank">特色专区</a></div>
+            <ul class="row-item-content" id="section-menu-tese">
+
+            </ul>
+        </div>
+<!--        <div class="row-item odd" id="div-menu-live">-->
+<!--            <div class="row-item-title bg_red"><a href="/index/home.html" class='c_white' target="_blank">猫咪直播</a></div>-->
+<!--            <ul class="row-item-content" id="section-menu-live">-->
+<!--            </ul>-->
+<!--        </div>-->
+    </div>
+</section>
+<script>
+    $(function(){
+        setTTjs("#tpl-user");
+        // if(typeof (livezhuanu)!=="undefined" && livezhuanu.length>0)
+        // {
+        //     setJingCai(livezhuanu,'live');
+        // }
+        // else
+        // {
+        //
+        //     $("#div-menu-live").html("");
+        // }
+        if(typeof (tesezhuanu)!=="undefined" && tesezhuanu.length>0){
+            setJingCai(tesezhuanu, 'tese')
+        }
+        else
+        {
+            $("#div-menu-tese").html("");
+        }
+
+    })
+</script>
+
+        <div class="top-ad-container ad-container" id="photo-header-title-content-text-dallor"></div>
+        <main class="container main-container text-list-html" id="main-container">
+            <script>
+                createFloatAd();
+            </script>
+             <div class="row nav-row">
+    <div class="box cat_pos clearfix">
+        <span class="cat_pos_l">您的位置：
+            <a href="/index/home.html">首页</a>&nbsp;&nbsp;»&nbsp;&nbsp;
+            <a href="javascript:;">激情小说</a>
+             &nbsp;&nbsp;»&nbsp;&nbsp;
+            <a href="/xiaoshuo/list-校园春色.html">校园春色</a>&nbsp;&nbsp;
+                    </span>
+    </div>
+</div>
+            <div id="photo-content-title-text-main" class="photo-content-title-text-main ad-container">
+            </div>
+
+            <div class="content" style="text-align: left"><br><br>
+                <p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">“呵呵……是不是很有感觉？”</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">郑竹义时刻观察着身下少女的反应，自然察觉到了顾浅浅微妙的变化。敏感的身子调教起来才有意思不是吗？</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">顾浅浅，你别想逃！</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">“没有……拿开……郑竹义，你放我走吧，我就当什么都没发生过，好不好？”顾浅浅还在挣扎。企图和恶魔谈判。</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">“浅浅，你怎么这么天真？”郑竹义冷笑一声，俯身整张脸都埋进了她的胸口，鼻尖翕动用力吸取着属于少女独特的清新的味道。</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">“唔……不要……走开啊……”</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">独属于异性的带着强烈的侵占意味地气息一下子逼得更近，顾浅浅恐惧地想要把身子后仰，躲开那足以让人窒息的异性的气息。</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">“真香。”郑竹义变态地伸出舌头在露出的一小块乳肉上轻轻舔了一下。满足道。然后大手终于不再满足于只是抚摸，绕道她的背后解开了胸衣的扣子。</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">“郑竹义……郑竹义……我求求你……别……”</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">顾浅浅被他禁锢得死死的，只有一张嘴还可以求饶。然而身上的人却丝毫不为她的眼泪所动容，她只能眼睁睁地看着那人一点点地剥开自己的胸衣，少女白嫩娇俏的乳房彻底地暴露在了空气中。被人用淫邪侵占的目光一直看着，两颗粉嫩的乳头因为刺激俏生生地立了起来。</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">“浅浅的乳头居然是粉色的，真好看。”郑竹义把少女粉色的胸衣放在脸前着迷地嗅了一会儿，顾浅浅只觉得他变态。</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">但是她却无能为力，只能任由这个人摆布。</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">“啊！好疼啊！别咬……放开……不要揉啊……”</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">右乳被整只大掌完全握住，五指由轻到重不停地张合，白花花的乳肉随着指缝明晃晃地打着波儿。左边的乳头被含入了一个温暖炙热的口腔，恶劣的牙齿不停地打磨。让人又痛又痒。乳房涨涨的，一股奇异的陌生的快感袭来。</p><p><br/></p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">“哦……”郑竹义满足地叹息一声，直接的肌肤相处带来的满足感太过强烈，少女滑嫩的肌肤紧紧吸引着大手，一旦附上就拿不下来了一般。柔软的乳房看起来小巧娇嫩，像个小馒头，让人恨不得一口吞下。又想恶狠狠地把它揉的更大。</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">“有感觉了吧……是不是很舒服？”郑竹义吐出口中已经彻底变硬的红樱，调戏道。</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">“求求你……好痛……”肉放被揉成各种形状，不只是痛，更多的是对于这副身体来说太过陌生的快感。</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">“奶子很有感觉吧？真的只有痛吗？”</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">郑竹义说着好像是为了惩罚她的心口不一一般，在白嫩的乳房上重重咬了一口。</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">“啊！好疼！”顾浅浅立刻发出一声惨叫。她最怕疼，他明明知道的。</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">“浅浅，告诉我。我在干什么？”郑竹义咬了好一会儿才松口，伸出舌头在哪深深地咬痕上不停地舔舐着。</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">“唔唔唔……”顾浅浅只是哭，不回答。</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">“啊……不要啊……松开，好疼！你在摸我的乳房……松口啊！啊啊啊！”</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">没有得到回答，郑竹义十分不悦，挨着原有的咬痕又狠狠地咬了一口，直到听到顾浅浅的妥协才松口。</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">“什么乳房，这叫奶子。”郑竹义说着右手又用力捏了一把。</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">“啊……你在摸我的奶子……轻点儿啊……”顾浅浅很快就屈服了。她怕极了疼。</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">听到了自己想听的话，郑竹义稍稍放松了手上的力道。抬头就看到少女纯洁的脸上已经布满了泪痕，心里隐藏的某处隐隐作痛。这是他喜欢的女孩儿。但他做不到眼睁睁地看着她投去别人的怀抱。浅浅，我爱你。所以，宁可毁了你，也不愿意放过你。</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">“郑竹义……呜呜呜……”顾浅浅为自己身体的反应感到羞耻。她居然会在被强迫的过程中也会产生反应。最羞耻的是，下体那个羞人的部位隐隐涌出一股热流。她生怕被郑竹义发现，卖力地想要合拢双腿，但是双腿早就被郑竹义提前压制住了，根本动不了。</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">羞耻、无助和害怕都使她的眼泪流的更汹涌了。</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">“浅浅……你真美。”郑竹义说完空闲的左手捏住顾浅浅的脖子，俯身吻上她的唇。</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">顾浅浅长得不是那种非常好看的类型，至少第一眼看上去绝对不会惊艳。但是绝对耐看，而且是越看越好看。大大的杏仁眼，小小的鼻子，鼻梁挺直，嘴巴也是小小的一个，唇色偏浅，郑竹义不止一次地幻想过狠狠咬住这双唇，把它吻成艳红色，唇角沾满自己的口水。然后把肉棒插进去，看着那张清纯无辜的脸挂满泪水，小小的嘴巴被迫长得大大地为自己口交。多少个日夜，他就是凭着这样的幻想度过。直到那天，他终于忍不住和女孩儿告了白，换来的却是一句“我只是把你当朋友”的拒绝。</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">“唔……”顾浅浅没交过男朋友，也没想过在大学之前要交男朋友的事。她之前拒绝郑竹义的一大部分原因就是不想早恋。一直以来都是父母眼前的乖乖女，老师眼中的好学生，早恋那种事对她来说就像洪水猛兽一样。好像一旦沾上了，就会变成坏孩子。</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">这是她的初吻。单纯的少女对于自己的初吻总是存有很多美好的幻想，顾浅浅也曾幻想过自己的初吻会是和自己的初恋男友在一棵梧桐树下沐浴着温暖的阳光，自然而然地发生。也许是两个人手牵手走在麦田里，他突然停下，低头吻住自己。少女的幻想总是美好的。她做梦都想不到自己的初吻居然是在一个完全陌生的房间里，身上几乎全裸，乳头被舔的硬硬的，乳房上还残留着被玩弄过的红印，被迫挺着两颗奶子任人狼吻。</p><p style="font-family: Raleway, sans-serif, 微软雅黑; font-size: 14.7px; white-space: normal; background-color: rgb(255, 255, 255);">“真甜。”郑竹义一吻住变不客气地长驱直入，大舌在她的口中一阵肆意地侵略，然后缠住无处可逃的丁香小舌一阵纠缠。毫无经验的顾浅浅不一会儿就被吻得气喘吁吁了，身子顿时软了下来。来不及吞咽的津液沿着俩人紧紧相贴的唇瓣流下。</p><p><br/></p>            </div>
+
+            <div id="photo-content-title-text-main-foot" class="photo-content-title-text-main ad-container">
+            </div>
+            <div class="photo--content-title-bottomx--foot ad-container" id="photo--content-title-bottomx--foot">
+            </div>
+            <div class="next-page">
+        <div class="content-next1 text-ellipsis">上一篇: <a href="/xiaoshuo/154810.html" target="_blank">少女的四十九天囚禁 第一章 囚禁第一天，撕碎少女的衣服，揉胸 </a></div>
+        <div class="content-next2 text-ellipsis">下一篇: <a href="/xiaoshuo/154812.html" target="_blank">本不正经 第一百五十三章 先机尽失 </a></div>
+    </div>
+
+        </main>
+            </div><footer class="container footer-container">
+    <div class="row">
+        <a href="/help/help.html" style="color: #fff;"> <span class="">提示：点击查看永久收藏和无法观看电影说明</span> &nbsp;|&nbsp;</a><a href="javascript:close_discor();" style="color: #fff;">关闭飘浮</a>
+    </div>
+    <div class="row">警告：如果您未滿18歲或您當地法律許可之法定年齡、或是對情色反感或是衛道人士建議您離開本站！ 本站歸類為限制級、限定為成年者已具有完整行為能力且願接受本站內影音內容、及各項條款之網友才可瀏覽，未滿18歲謝絕進入。</div>
+    <div class="row"> 本站已遵照「iWIN網路內容防護機構」進行分類，如有家長發現未成年兒童／少年瀏覽此站、請按照此方法過濾本站內容 >>『網站分級制度』</div>
+</footer>
+
+<script>
+    var ishttps = 'https:' == document.location.protocol ? 'https://': 'http://';
+    var iswww=window.domain.indexOf('www.')>-1?'':'www.';
+    var txt="请复制域名至浏览器打开，勿于微信或者QQ中打开，成人内容将被屏蔽"
+    var nativeShare = new NativeShare()
+    var shareData = {
+        title: ishttps+iswww+window.domain,
+        desc: txt,
+        // 如果是微信该link的域名必须要在微信后台配置的安全域名之内的。
+        link: ishttps+iswww+window.domain,
+        icon: img_host+'/assets/images/theme/default/logo_300x300.png',
+        // 不要过于依赖以下两个回调，很多浏览器是不支持的
+        success: function() {
+            alert('分享成功')
+        },
+    }
+    nativeShare.setShareData(shareData)
+
+    function callShare(command) {
+        try {
+            nativeShare.call(command)
+        } catch (err) {
+            alert("请直接复制网站链接分享");
+        }
+    }
+
+    if ($('.lazy').length > 0) {
+        $(".lazy").lazyload({
+            effect: "fadeIn"
+        });
+    }
+    var host="6378896f5822.com";
+    $('.header_title').html(host);
+    function close_discor() {
+        $('.close_discor').hide();
+    }
+</script>
+<script src="https://3js.cheqiao.cc/3/assets/js/export/xiaoshuo_detail.min.js"></script>
+
+</body>
+<script>
+    createHeaderAd(0);
+    createContentAd(2);
+    createFootAd();
+</script>
+</html>
